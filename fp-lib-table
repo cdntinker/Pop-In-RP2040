@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Tinker RP2040")(type "KiCad")(uri "${KIPRJMOD}/(KiCAD Customs)/Footprints")(options "")(descr ""))
+  (lib (name "Rabbit")(type "KiCad")(uri "/home/tinker/Documents/Projects/{KiCad Customs}/Footprints/Rabbit.pretty")(options "")(descr ""))
+)

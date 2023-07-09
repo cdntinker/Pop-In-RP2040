@@ -1,0 +1,13 @@
+(footprint "Castellation" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 2.54 0 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp a113a5d6-5051-4ae7-aab3-63f8642fb5ba)
+  )
+  (fp_text value "Castellation" (at -6.35 0 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 19aed80a-c879-40ac-9f41-974f00c9d77c)
+  )
+  (pad "1" thru_hole roundrect (at 0 0) (size 1.8 0.9) (drill 0.762) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 75aafa77-c2c3-4543-a0e5-bd5494073e46))
+)
