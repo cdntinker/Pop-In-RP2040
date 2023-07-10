@@ -376,12 +376,12 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "Pop-In RP2040.cad",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
-      "step": "(KiCAD Customs)/3D/Pop-In RP2040.step",
-      "vrml": "(KiCAD Customs)/3D/A Better RP2040 Module.wrl"
+      "specctra_dsn": "3D/Pop-In RP2040.dsn",
+      "step": "3D/Nuggit.step",
+      "vrml": "3D/Nuggit.wrl"
     },
     "page_layout_descr_file": ""
   },
