@@ -460,7 +460,7 @@
     (pad "55" thru_hole rect (at -5.715 -13.97 270) (size 1.3 0.9) (drill 0.6 (offset -0.3 0)) (layers *.Cu *.Mask) (tstamp a5a8b6a8-b12c-4c5b-937b-97382813d7f5))
     (pad "56" thru_hole rect (at -6.985 -13.97 270) (size 1.3 0.9) (drill 0.6 (offset -0.3 0)) (layers *.Cu *.Mask) (tstamp 853efa63-9d30-4fa4-bb01-6fc3cc5a6e37))
     (pad "56" thru_hole oval (at -6.985 -12.42 270) (size 2 0.95) (drill oval 1.7 0.65) (layers *.Cu *.Mask) (tstamp fc221d45-e120-4ea0-9432-e197abf86d4b))
-    (model "${KIPRJMOD}/(KiCAD Customs)/3D/Pop-In RP2040.step"
+    (model "${KIPRJMOD}/(KiCAD Customs)/3D/Pop-In RP2040.step" hide
       (offset (xyz 0 1.27 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -744,6 +744,11 @@
       (offset (xyz -7.069622 14 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
+    )
+    (model "${KIPRJMOD}/3D/Nuggit.wrl"
+      (offset (xyz 0 1.27 0.5))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
     )
   )
 
