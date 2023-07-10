@@ -218,6 +218,7 @@
   (fp_line (start -9.005378 -11.966236) (end 8.974622 -11.966236) (layer "Dwgs.User") (width 0.1) (tstamp 27e73d8b-c939-48a6-8752-6dc7521e9e69))
   (fp_line (start 8.974622 -11.966236) (end 8.974622 9.793764) (layer "Dwgs.User") (width 0.1) (tstamp 39cb7da1-516d-467e-8ae2-b8812d74ceac))
   (fp_line (start 8.974622 9.793764) (end -9.005378 9.793764) (layer "Dwgs.User") (width 0.1) (tstamp bb7f7ced-17fc-4eef-a99c-268f7f1f2f79))
+  (fp_circle (center 0 -8) (end 2.54 -8) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 9280dd72-f2ae-4a96-94c7-f64a24acdd93))
   (pad "0" thru_hole circle (at 0 0 90) (size 2 2) (drill 0.6) (layers *.Cu *.Mask) (tstamp 1ddf457c-ed4a-4b19-82bb-21d8136b1e74))
   (pad "1" thru_hole oval (at -9.005378 -10.795) (size 2 0.95) (drill oval 1.7 0.65) (layers *.Cu *.Mask) (tstamp c09e578a-ea63-4200-b3b4-e10ed1c0c6e4))
   (pad "1" thru_hole rect (at -10.555378 -10.795) (size 1.3 0.9) (drill 0.6 (offset -0.3 0)) (layers *.Cu *.Mask) (tstamp eaa61a58-2257-4061-be6e-b29701477129))
@@ -592,8 +593,8 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model "${KIPRJMOD}/(KiCAD Customs)/3D/poo.step"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/3D/Pop-In RP2040.step"
+    (offset (xyz -100 101.27 2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
